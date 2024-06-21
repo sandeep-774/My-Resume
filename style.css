@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* background-color: rgb(199, 251, 251); */
+    background-color: rgb(239, 254, 254);
+}
+body h3{
+    border: 0.5px solid black;
+    text-align: center;
+    background-image: linear-gradient(rgb(136, 110, 110), white);
+    /* box-shadow: -4px -3px 13px rgba(121, 34, 34, 0.5); */
+    border-radius: 10px;
+}
+
+
+/* Header */
+.details{
+    color: blue;
+}
+hr{
+    border-color: blue;
+    border-width: 0.5px;
+    /* width: 100Vw; */
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    flex-direction: column;
+    justify-content: left;
+}
+header{
+    width: 816px;
+    margin: 25px;
+   
+}
+.header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    /* width: 816px; */
+}
+header h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* margin: 10px; */
+    color: red;
+    border: 0.5px solid black;
+    text-align: center;
+    background-image: linear-gradient(rgb(136, 110, 110), white);
+    border-radius: 10px;
+    /* box-shadow: -4px -3px 13px rgba(121, 34, 34, 0.5); */
+}
+.img{
+    display: flex;
+    justify-content: right;
+    margin-right: 25px;
+}
+img{
+    width: 50px;
+}
+
+
+     /* main */
+main{
+    margin: 25px;
+    width: 816px;
+}
+.career p{
+    color: blue;
+}
+table{
+    display: table;
+    box-sizing: border-box;
+    border: 0.5px solid black;
+    width: 816px;
+    
+}
+table tr th{
+    border: 0.5px solid black;
+}
+table tr td{
+    border: 0.5px solid black;
+    color: blue;
+}
+.personal ul li{
+    list-style-type: none;
+}
+.work li{
+    color: blue;
+}
+.hobbies li{
+    color: blue;
+}
+
+footer{
+    margin: 15px;
+    width: 816px;
+}
+.signature{
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    text-align: right;
+    margin: 15px;
+}
+.sandeep{
+    color: blue;
+}
+.declaration p{
+    color: blue;
+}
+.per{
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    grid-gap: 0.5rem;
+    
+}
+
+
+
+
